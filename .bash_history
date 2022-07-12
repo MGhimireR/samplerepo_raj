@@ -14,3 +14,14 @@ sudo apt update
 git --version
 sudo apt install git
 exec bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+git config --global user.name "Raj Ghimire"
+git config --global user.email "M.GhimireR@gmail.com"
+git init
+git status
+git init
+git clone https://github.com/MGhimireR/terraform-aks.git
+git add .
+git commit -m "c1"
+git push
